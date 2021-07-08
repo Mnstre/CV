@@ -1,5 +1,5 @@
 # Miguel Gutiérrez
-_Mechatronics Engineer. Jalisco, Mexico
+_Mechatronics Engineer. Jalisco, Mexico_
 
 Email / Website / LinkedIn / GitHub / Twitter / DEV
 
