@@ -1,0 +1,11 @@
+/* CSS HEX */
+:root {
+    --cOscuro: #2c302eff;
+    --cGris: #696969ff;
+    --cAzul: #558c8cff;
+    --cCaféC: #cbbf7aff;
+    --cClaro: #f2f6d0ff;
+}
+body {
+    background-color: var(--cOscuro);
+}
