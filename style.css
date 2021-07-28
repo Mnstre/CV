@@ -8,4 +8,22 @@
 }
 body {
     background-color: var(--cOscuro);
+    color: var(--cClaro);
+}
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: var(--cOscuro);
+}
+.botonStart{
+    color: var(--cCaféC);
+    border-color: var(--cCaféC);
+}
+.botonStart:hover {
+    color: var(--cOscuro);
+    background-color: var(--cCaféC);
+    border-color: var(--cCaféC);
 }
