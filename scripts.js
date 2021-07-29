@@ -5,6 +5,7 @@ jQuery(
                 //$(this).parent('#splashscreen').fadeOut(500);
                 //$('.enter_link').not( $(this) ).fadeOut('fast');
                 $('#splashscreen').fadeOut(500);
+                $('#contenedor').fadeIn(500);
                 $(document).ready(function() {
                     $(".animsition").animsition({
                         inClass: 'fade-in-down-sm',
