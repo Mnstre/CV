@@ -10,6 +10,11 @@ body {
     background-color: var(--cOscuro);
     color: var(--cClaro);
 }
+.principal {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 #splashscreen {
     position:absolute;
     top:0;
@@ -18,7 +23,7 @@ body {
     width:100%;
     background-color: var(--cOscuro);
 }
-.botonStart{
+.botonStart {
     color: var(--cCaféC);
     border-color: var(--cCaféC);
 }
@@ -26,4 +31,18 @@ body {
     color: var(--cOscuro);
     background-color: var(--cCaféC);
     border-color: var(--cCaféC);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 30px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(111, 108, 108);
+    border-radius: 10px;
 }
