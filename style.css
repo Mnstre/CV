@@ -1,19 +1,39 @@
+/***************************************/
 /* CSS HEX */
 :root {
     --cOscuro: #2c302eff;
     --cGris: #696969ff;
     --cAzul: #558c8cff;
     --cCaféC: #cbbf7aff;
+    --cCaféC2: rgba(255, 246, 195, 0.542);
     --cClaro: #f2f6d0ff;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 30px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(111, 108, 108);
+    border-radius: 10px;
+}
+/***************************************/
 body {
     background-color: var(--cOscuro);
-    color: var(--cClaro);
+    color: var(--cCaféC2);
 }
 .principal {
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
+}
+p.a{
+    color: var(--cCaféC);
 }
 #splashscreen {
     position:absolute;
@@ -32,17 +52,7 @@ body {
     background-color: var(--cCaféC);
     border-color: var(--cCaféC);
 }
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
+.aboutMe {
+    padding-top: 50%;
 }
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 30px;
-}
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgb(111, 108, 108);
-    border-radius: 10px;
-}
+/***************************************/
