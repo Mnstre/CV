@@ -26,11 +26,18 @@
 body {
     background-color: var(--cOscuro);
     color: var(--cCaféC2);
+    line-height: 160%;
 }
 .principal {
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
+}
+.section {
+    padding-top: 5%;
+}
+.section1 {
+    padding-top: 25%;
 }
 p.a{
     color: var(--cCaféC);
