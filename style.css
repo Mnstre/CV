@@ -28,6 +28,9 @@ body {
     color: var(--cCaféC2);
     line-height: 160%;
 }
+.sidebar {
+    /*position: fixed;*/
+}
 .principal {
     padding-top: 10%;
     padding-left: 10%;
