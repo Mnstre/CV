@@ -36,11 +36,15 @@ body {
 .section {
     padding-top: 5%;
 }
+/*
 .section1 {
-    padding-top: 25%;
-}
+    padding-top: 15%;
+}*/
 p.a{
     color: var(--cCaféC);
+}
+hr {
+    margin: 20%;
 }
 #splashscreen {
     position:absolute;
